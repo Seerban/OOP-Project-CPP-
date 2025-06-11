@@ -1,0 +1,40 @@
+Fabrica Masini
+
+----Wallet----
+Vezi Buget (Portofel si total nevandute)
+
+----Part----
+    --Panou--
+    --Cauciuc--
+    --Motor--
+
+----Car----
+Update Masina
+    -Pret
+    -Part
+
+----Inventory----
+Vezi Masini
+Adauga Masina
+Vezi Parts
+Adauga Parts
+
+----Customer----
+getVIPStatus
+
+----Service----
+Vinde Masina (Din Masini)
+Vinde Part
+Scrap Masina
+
+Clase:
+    Wallet
+    Part
+        Panou
+        Cauciuc
+        Motor
+    Car
+    Inventory (part || car)
+    Customer 
+    Service (Operatii Sistem)
+    Main (Apel servicii)
